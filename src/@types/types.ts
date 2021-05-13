@@ -10,6 +10,14 @@ export interface UpBeatStats {
     listen_url: string;
 }
 
+export interface RecentlyPlayed {
+    [index: number]: RecentSong;
+}
+
+export interface Booked {
+    [index: number]: UserBooked;
+}
+
 export interface Song {
     title: string;
     artist: string;
@@ -22,6 +30,10 @@ export interface Song {
     played: number;
 }
 
+export interface RecentSong extends Song {
+    time: number;
+}
+
 export interface OnAir {
     name: string;
     likes: number;
@@ -31,6 +43,16 @@ export interface OnAir {
     day: number;
     hour: number;
     socials?: Socials;
+}
+
+export interface UserBooked {
+    name: string;
+    avatar: string;
+    user_id: string | number;
+    day: number;
+    hour: number;
+    week: number;
+    profile_url: string;
 }
 
 export interface Socials {
