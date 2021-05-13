@@ -1,0 +1,30 @@
+{
+  "name": "upbeatradio",
+  "version": "0.0.1",
+  "description": "Easily interact with UpBeatRadio.net API",
+  "main": "lib",
+  "typings": "lib",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": {
+    "email": "me@marino.codes",
+    "name": "Marino Franz",
+    "url": "https://marino.codes"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@types/node": "^15.0.3",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.4"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "tslib": "^2.2.0"
+  }
+}

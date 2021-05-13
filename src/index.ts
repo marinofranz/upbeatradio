@@ -1,0 +1,1 @@
+export { UpBeatClient } from "./classes/UpBeatClient";
