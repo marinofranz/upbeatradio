@@ -1,6 +1,6 @@
 node_modules/
 node_modules/typescript
 node_modules/.bin
-dist
+lib/
 package-lock.json
 yarn.lock

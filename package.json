@@ -1,6 +1,6 @@
 {
   "name": "upbeatradio",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Easily interact with UpBeatRadio.net API",
   "main": "lib",
   "typings": "lib",
@@ -9,6 +9,7 @@
     "url": "https://github.com/marinofranz/upbeatradio"
   },
   "scripts": {
+    "prepublish": "npm run build",
     "build": "tsc",
     "test": "jest"
   },
