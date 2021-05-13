@@ -4,6 +4,10 @@
   "description": "Easily interact with UpBeatRadio.net API",
   "main": "lib",
   "typings": "lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marinofranz/upbeatradio"
+  },
   "scripts": {
     "build": "tsc",
     "test": "jest"
