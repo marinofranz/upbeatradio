@@ -1,6 +1,6 @@
 {
   "name": "upbeatradio",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Easily interact with UpBeatRadio.net API",
   "main": "lib",
   "typings": "lib",
@@ -13,7 +13,7 @@
     "build": "tsc",
     "test": "jest"
   },
-  "keywords": [],
+  "keywords": ["upbeat", "upbeatradio", "upbeat-ts", "typescript-lib", "typescript", "ts", "upbeatradionet"],
   "author": {
     "email": "me@marino.codes",
     "name": "Marino Franz",
