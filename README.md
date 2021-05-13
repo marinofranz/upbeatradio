@@ -5,7 +5,7 @@
 <p align="center">
     <img src="https://images-ext-1.discordapp.net/external/o6Pk_1M2ATFpHyAuRz5Y4t7AslOA4g_e52ICZpApsUs/https/upbeatradio.net/Desktop.png?width=1032&height=581" alt="banner">
     <h2 align="center">UpBeatRadio</h2>
-    <h3 align="center">Typescript Library</h3>
+    <p align="center">Typescript Library</p>
 </p>
 
 # 📦 How to install
